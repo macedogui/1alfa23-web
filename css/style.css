@@ -70,7 +70,6 @@ a{
     width: 30%;
     padding: 1.5%;
     font-size: 20px;
-    text-align: center;
     line-height: 25px;
     color: #474747
 
@@ -172,4 +171,50 @@ footer .item {
 .depoimentos .cliente .nome{
     font-weight: bold;
 
+}
+.contato input, .contato textarea{
+    border-bottom: 2px solid #f4f4f4;
+    height: 35px;   
+    padding: 5px;   
+    margin: 10px;   
+    font-size: 20px;    
+    max-width: 250px;
+}
+.contato textarea{
+    height: 50px;   
+    max-width: 250px;
+}
+.contato button {
+    background: transparent;
+    color:#f4f4f4;
+    border: 2px solid #f4f4f4;
+    padding: 10px 40px;
+    font-size: 15px;
+    display: block;
+    border-radius: 25px;
+}
+.item .contato{
+    line-height: 30px;
+}
+.contato h3{
+    margin-bottom: 20px;
+}
+.contato p{
+    line-height: 45px;
+
+}
+footer a{
+    color: #f4f4f4;
+}
+footer .social li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 50px;
+}
+footer .menu li{
+    line-height: 35px;
+}
+.content{
+    font-size: 20px;
+    line-height: 25px;
 }

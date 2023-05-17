@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header> 
+    <header>
         <section>
             <div id="header">
                 <div id="logotipo">
-                    <img src="img/logotipo.png" alt="logotipo MG Multimarcas">
-                </div>   
+                    <img src="img/logotipo.png" alt="Logotipo MG Multimarcas">
+                </div>
                 <div class="contato">
-                    <a href="#">Ligue (44)99994-3657</a>
+                    <a href="#">Ligue: (44)99994-3657</a>
                 </div>
             </div>
         </section>
@@ -29,82 +31,136 @@
                 <li><a href="#financiamento">Financiamento</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-        </nav> 
+        </nav>
     </header>
     <div id="main">
-   <section class="content">
-    <h3>Dados de contato</h3>
-    <p>
-          (44)99994-3657 <br>
-          macedoguilherme@gmail.com
-          av atlantica, 1354 - jardim paraiso<br>
-          Umuarama - PR 
-    </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8064669978044!2d-53.28367698566893!3d-23.754279874628452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f2d1e658459f85%3A0x7b81c993c8545f96!2sFaculdade%20ALFA%20Umuarama%20-%20UniALFA!5e0!3m2!1spt-PT!2sbr!4v1681261777824!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </section>
-    <div>
+        <section class="content">
+            <div class="div-50 faleconosco">
+                <h3>Fale com a nossa equipe</h3>
+                <p>
+                    (44)99994-3657 - macedoguilherme876@gmail.com <br>
+                   av atlantica, 1354 - Centro - Umuarama - PR
+                </p>
+                <form action="" method="POST">
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                    </div>
+                    <div class="campo">
+
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+
+                    </div>
+                    <div class="campo">
+                        <select name="assunto" id="assunto">
+                            <option>Escolha um assunto</option>
+                            <option value="index.html#financiamento">Financiamento</option>
+                            <option value="vendas">Vendas</option>
+                            <option value="reclamacoes">Reclamações</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="gerencia">Gerência</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <p>Quando deseja receber nosso retorno</p>
+                        <ul>
+                            <li>
+                                <label for="manha">Manhã
+                                    <input type="radio" name="horario" value="manha" id="manha">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="tarde">Tarde
+                                    <input type="radio" name="horario" value="tarde" id="tarde">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="noite">Noite
+                                    <input type="radio" name="horario" value="noite" id="noite">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="campo">
+                        <textarea name="menssagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="campo">
+                        <input type="submit">
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="div-50">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3651.806466286127!2d-53.2836716!3d-23.7542799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f2d1e658459f85%3A0x7b81c993c8545f96!2sFaculdade%20ALFA%20Umuarama%20-%20UniALFA!5e0!3m2!1spt-BR!2sbr!4v1681261781822!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
     <footer>
         <section>
-        <div class="item contato">
-            <h3>Dados de contato</h3>
-            <p>
-                (44)99994-3657 <br>
-                macedoguilherme@gmail.com
-                  av atlantica, 1354 - jardim paraiso<br>
-                  Umuarama - PR 
-            </p>
-            <p>
-                desenvolvido por: <b> Guilherme Macedo</b>
-            </p>
-        </div>
-        <div class="item">
-        <h3>
-            fale com a gente
-        </h3>
-        <form class="contato">
-            <input type="text" name="nome" placeholder="insira seu nome">
-            
-            <input type="mail" name="email" placeholder="seu e-mail">
+            <div class="item contato">
+                <h3>Dados de contato</h3>
+                <p>
+                    (44)99994-3657<br>
+                    macedoguilherme876@gmail.com<br>
+                    Rua av atlantica, 1354 - Centro<br>
+                    Umuarama - PR
+                </p>
+                <p>
+                    Desenvolvido por <b>Prof Alan Reis</b>
+                </p>
+            </div>
+            <div class="item">
+                <h3>
+                    Fale com a gente
+                </h3>
+                <form class="contato">
 
-            <textarea name="mensagem" placeholder="sua mensagem"></textarea>
+                    <input type="text" name="nome" placeholder="Insira seu nome">
 
-            <button>enviar</button>
-         
-        </form>
-        </div>
-        <div class="item">
-            <ul class="menu">
-            <li></li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="#financiamento">Financiamento</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-            <h3>Nos siga nas redes sociais</h3>
-            <uL class="social">
-                <li>
-                <a href="https://www.facebook.com/megadermafarmaciademanipulacao/" target="_blank">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/guilherme.macedoo/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/5544999943657"target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </li>
+                    <input type="mail" name="email" placeholder="Seu e-mail">
 
-            </uL>
-            
-            
+                    <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
 
-        </div>
-    </section>
-    <script src="https://kit.fontawesome.com/b82f5ae24a.js" crossorigin="anonymous"></script>
+                    <button>Enviar</button>
+                </form>
+            </div>
+            <div class="item">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#financiamento">Financiamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+
+                <h3>Nos siga nas redes sociais</h3>
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/alanldos.reis/" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/guilherme.macedoo?igshid=Y2M0YTlkZGNmOQ==" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5544999943657" target="_blank">
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <script src="https://kit.fontawesome.com/b82f5ae24a.js" crossorigin="anonymous"></script>
     </footer>
 </body>
-</html>
+
+</html> 
